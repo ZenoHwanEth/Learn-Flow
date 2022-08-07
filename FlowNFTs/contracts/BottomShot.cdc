@@ -1,5 +1,5 @@
 // Public contract BottomShot
-pub contract BottomShot {
+pub contract BottomShot  {
 
   // Declare an NFT resource Type
   pub resource NFT{
