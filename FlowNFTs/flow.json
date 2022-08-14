@@ -8,6 +8,18 @@
     "emulator-account": {
       "address": "f8d6e0586b0a20c7",
       "key": "5d4ef21586fd43b86dd6b5a5c3d3aa12773b207e8fd91ae54ac2f0c9c8a56b5c"
+    },
+    "testnet-account": {
+      "address": "account address",
+      "key": "private key"
+    }
+  },
+  "contracts": {
+    "BottomShot": "./contracts/BottomShot.cdc"
+  },
+  "deployments": {
+    "testnet": {
+      "testnet-account": ["BottomShot"]
     }
   }
 }
