@@ -1,15 +1,13 @@
 {
-	"contracts": {},
-	"networks": {
-		"emulator": "127.0.0.1:3569",
-		"mainnet": "access.mainnet.nodes.onflow.org:9000",
-		"testnet": "access.devnet.nodes.onflow.org:9000"
-	},
-	"accounts": {
-		"emulator-account": {
-			"address": "f8d6e0586b0a20c7",
-			"key": "c697cc0a84b0e825ca478a3a6cfb241c074799cab82ed9806d43aa1252855043"
-		}
-	},
-	"deployments": {}
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": "5d4ef21586fd43b86dd6b5a5c3d3aa12773b207e8fd91ae54ac2f0c9c8a56b5c"
+    }
+  }
 }
