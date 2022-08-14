@@ -1,4 +1,14 @@
 {
+  "emulators": {
+    "default": {
+      "port": 3569,
+      "serviceAccount": "emulator-account"
+    }
+  },
+  "contracts": {
+    "BottomShot": "./contracts/BottomShot.cdc",
+    "CatMoji": "./contracts/CatMoji.cdc"
+  },
   "networks": {
     "emulator": "127.0.0.1:3569",
     "mainnet": "access.mainnet.nodes.onflow.org:9000",
@@ -7,19 +17,16 @@
   "accounts": {
     "emulator-account": {
       "address": "f8d6e0586b0a20c7",
-      "key": "5d4ef21586fd43b86dd6b5a5c3d3aa12773b207e8fd91ae54ac2f0c9c8a56b5c"
+      "key": "3314a7fca73b5c091da87027265180a5d85e6930047f2d9bf98cc979d52c5022"
     },
     "testnet-account": {
-      "address": "account address",
-      "key": "private key"
+      "address": "0x77d3725429a2dc34",
+      "key": "e2906b8f8de9627b8536c10102a002c7694bd29dcbf96ceff807a39c950a20e8"
     }
-  },
-  "contracts": {
-    "BottomShot": "./contracts/BottomShot.cdc"
   },
   "deployments": {
     "testnet": {
-      "testnet-account": ["BottomShot"]
+      "testnet-account": ["CatMoji"]
     }
   }
 }
